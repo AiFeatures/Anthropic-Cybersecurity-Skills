@@ -16,6 +16,7 @@ concurrency:
 
 jobs:
   update:
+    if: github.repository_owner == 'mukul975'
     runs-on: ubuntu-latest
     permissions:
       contents: write
